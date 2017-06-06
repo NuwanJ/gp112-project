@@ -1,0 +1,96 @@
+.main-content {
+    min-height: 100vh;
+}
+
+.appbox {
+}
+
+.appbox-row {
+    padding: 0 5px 10px 5px;
+}
+
+.appbox-img {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    padding: 5px;
+
+}
+
+.appbox-title{
+    font-size: x-large;
+    padding: 4px 10px;
+    margin-top: 25px;
+    color: #808080;
+    font-family:"Courier New", Courier, monospace;
+
+    /*width: 100%;
+    border-bottom: 3px solid #0883b5;
+    color: #000000;
+    background-color: #2babe2;
+    border-radius: 10px;*/
+}
+
+.appbox-img img {
+
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.appbox-img:hover {
+    padding: 1px;
+    background-color: #ffe52f;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    /*border:1px solid #ffe52f;*/
+}
+
+.appbox p {
+    font-size: large;
+    padding: 5px;
+    color: #6f6f6f;
+}
+
+.app-footer {
+    background-color: #0883b5;
+    color: #ffffff;
+}
+
+.appbox-a :hover{
+    text-decoration: none;
+
+}
+
+.app-footer a {
+    text-decoration: none;
+}
+
+.app-footer a:hover {
+    color: #000000;
+    font-style: oblique;
+}
+
+.app-footer a {
+    color: #ffffff;
+}
+
+.img-social {
+    width: 48px;
+    padding: 5px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.img-social:hover {
+    padding: 1px;
+}
+
+.nav-ico {
+    font-size: 1.5em !important;
+}
+
+.app-tab{
+
+    width: 25%;
+}
+
